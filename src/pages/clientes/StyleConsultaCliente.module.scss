@@ -1,0 +1,178 @@
+
+.ConteinerPage{
+
+position: relative;
+
+
+.BoxPage{
+padding: 0 20px;
+overflow-y: scroll;
+max-height: 400px;
+}
+
+.loading {
+    font-size: 1.2rem;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem;
+}
+}
+
+.ModalEdicao{
+
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 800px;
+max-height: 500px;
+background: var(--corSecundaria);
+
+h2{
+color: #fff;
+margin-bottom: 1rem;
+}
+
+form{
+
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+width: 100%;
+padding: 2rem 0;
+
+* {
+border-radius: 10px;
+border: none;
+}
+
+label{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.5rem; 
+font-size: 1rem;
+font-weight: 500;
+margin-bottom: 0.5rem;
+
+legend{
+color: #fff;
+}
+
+input[type="checkbox"] {
+width: auto;
+margin-right: 0.5rem; /* Adiciona margem para o checkbox */
+}
+
+}
+
+input,
+select,
+textarea {
+width: 100%;
+padding: 1rem;
+font-size: 1rem;
+background-color: var(--corTerciaria);
+color: #fff; 
+border: 1px solid #ccc;
+transition: border-color 0.3s ease; 
+}
+
+
+select{
+max-width: 170px;
+}
+
+textarea{
+resize: vertical;
+height: 100px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+border-color: var(--corPrimaria); 
+outline: none; 
+}
+
+button{
+cursor: pointer;
+color: #fff;
+background-color: var(--Corbutton_1);
+padding: 1rem;
+transition: background-color 0.3s ease;
+}
+
+}
+
+}
+
+.Modalview {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+max-width: 1000px;
+background: var(--corSecundaria);
+padding: 2rem;
+border-radius: 10px;
+position: relative;
+overflow-x: scroll;
+}
+
+h2 {
+color: #fff;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+margin-top: 1rem;
+
+}
+
+th,td {
+padding: 0.5rem;
+text-align: left;
+color: #fff;
+border: 1px solid #ddd;
+}
+
+th {
+background-color: var(--corTerciaria);
+color: #fff;
+font-weight: bold;
+}
+
+td {
+background-color: var(--corSecundaria);
+transition: background-color 0.3s ease;
+&:hover {
+background-color: #f5f5f5;
+color: #000;
+}
+}
+
+.closeModal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  color: var(--corPrimaria);
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.Modalview .closeModal:hover {
+  color: var(--Corbutton_2); /* Mudança de cor ao passar o mouse */
+}
+
+.Modalview .closeModal:focus {
+  outline: none;
+}
+
+
+  

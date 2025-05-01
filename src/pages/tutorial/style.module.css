@@ -1,0 +1,21 @@
+#ConsultaErro {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+#ConsultaErro .ConteinerConsulta {
+  width: 100%;
+  max-width: 700px;
+  max-height: 350px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #000922;
+}
+#ConsultaErro .ConteinerConsulta h1 {
+  color: #fff;
+}/*# sourceMappingURL=style.module.css.map */

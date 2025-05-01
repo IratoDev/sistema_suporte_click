@@ -1,0 +1,15 @@
+.boxPesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  width: 100%;
+  padding: 1rem 0;
+}
+.boxPesquisa input {
+  border-radius: 10px;
+  border: none;
+  padding: 1em 10px;
+  width: 100%;
+  max-width: 500px;
+}/*# sourceMappingURL=Style.module.css.map */

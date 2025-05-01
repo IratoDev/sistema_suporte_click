@@ -2,7 +2,7 @@
 import AppRouter from "./router";
 import "./GlobalStyle.css";
 import { Toaster } from "sonner";
-import { NavBar } from "./components/Nav";
+import { NavBar } from "./components/Nav/NavBar";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {

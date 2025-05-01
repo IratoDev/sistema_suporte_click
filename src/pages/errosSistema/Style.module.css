@@ -1,0 +1,131 @@
+.ModalEdicao {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  background: var(--corSecundaria);
+}
+.ModalEdicao .modalContent {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+.ModalEdicao .modalContent h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.ModalEdicao .modalContent form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+.ModalEdicao .modalContent form * {
+  border-radius: 10px;
+  border: none;
+}
+.ModalEdicao .modalContent form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.ModalEdicao .modalContent form label legend {
+  color: #fff;
+}
+.ModalEdicao .modalContent form label input[type=checkbox] {
+  width: auto;
+  margin-right: 0.5rem; /* Adiciona margem para o checkbox */
+}
+.ModalEdicao .modalContent form input,
+.ModalEdicao .modalContent form select,
+.ModalEdicao .modalContent form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: var(--corTerciaria);
+  color: #fff;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+.ModalEdicao .modalContent form select {
+  max-width: 170px;
+}
+.ModalEdicao .modalContent form textarea {
+  resize: vertical;
+  height: 100px;
+}
+.ModalEdicao .modalContent form input:focus,
+.ModalEdicao .modalContent form select:focus,
+.ModalEdicao .modalContent form textarea:focus {
+  border-color: var(--corPrimaria);
+  outline: none;
+}
+.ModalEdicao .modalContent form button {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--Corbutton_1);
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+.ModalEdicao .modalContent .buttonclose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  padding: 1rem;
+}
+.ModalEdicao .modalContent .buttonclose svg {
+  scale: 2;
+  fill: var(--Corbutton_2);
+}
+
+.Modalview {
+  width: 100%;
+  max-width: 900px;
+  background: var(--corSecundaria);
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.Modalview .modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 20px;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.Modalview .buttonclose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  padding: 1rem;
+}
+.Modalview .buttonclose svg {
+  scale: 2;
+  fill: var(--Corbutton_2);
+}
+.Modalview h1 {
+  color: #fff;
+}
+.Modalview p {
+  color: #fff;
+}
+
+.ConteinerConsulta {
+  width: 100%;
+  max-height: 500px;
+  overflow-y: scroll;
+}/*# sourceMappingURL=Style.module.css.map */

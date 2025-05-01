@@ -1,0 +1,20 @@
+
+.Titulo{
+
+font-family:var(--FontPrimaria) ;
+font-size: var(--FontSizeTitulo);
+font-weight: var(--FontWeightPrimario);
+
+}
+
+.SubTitulo{
+font-family: var(--FontPrimaria);
+font-size: var(--FontSizeSubTitulo);
+font-weight: var(--FontWeightPrimario);
+}
+
+.Texto{
+font-family: var(--FontSecundaria) ;
+font-size: var(--FontSizeTexto);
+font-weight: var(--FontWeightSecundario);
+}
